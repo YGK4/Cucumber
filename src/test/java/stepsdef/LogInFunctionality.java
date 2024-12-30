@@ -24,12 +24,14 @@ public class LogInFunctionality {
 
 	   
 	}
+	
  @And("clicked on login button")
 	 public void clicked_on_login_button() {
 		chromeDriver.findElement(By.xpath("//a[normalize-space()='Log in']")).click();
 
 	 
  }
+ 
 	@When("Entered log in details")
 	public void entered_log_in_details() {
 		
