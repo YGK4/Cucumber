@@ -1,0 +1,11 @@
+runner\Runner.class
+stepsdef\EpicStep.class
+runner\LoginRunner.class
+runner\RunTricentices.class
+runner\Runtests.class
+runner\RunnerLogin.class
+stepsdef\ExampleStep.class
+runner\RunExample.class
+stepsdef\RegistrationSteps.class
+stepsdef\EpicTestSteps.class
+stepsdef\LogInFunctionality.class
