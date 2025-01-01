@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 	
 	@RunWith(Cucumber.class)
 	@CucumberOptions(features = "F:\\Users\\GOPAL\\eclipse-workspace\\cucumber-example\\EpicName.feature",
-	glue = "stepsdef",
+	glue = "stepDefinitions",
 	dryRun = false)
 	public class Runner {
 		

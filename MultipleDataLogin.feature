@@ -8,3 +8,12 @@ Feature: Login functionality with multiple users
       | alice@gmail.com  | alice@456    |
       | john@gmail.com   | john@789     |
     Then Close the browser
+    
+    Scenario: Login with invalid user
+    Given launch "url"
+    And Click "xpath" "data"
+    And Click
+    And Enter
+    
+    
+

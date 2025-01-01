@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 	@RunWith(Cucumber.class)
 	@CucumberOptions(features = "F:\\Users\\GOPAL\\eclipse-workspace\\cucumber-example\\src\\test\\resources\\MultipleDataLogin.feature",
-	glue = "stepsdef")
+	glue = "stepDefinitions")
 public class MultiDataLogRunner {
 
 	

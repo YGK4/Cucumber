@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 
 	@RunWith(Cucumber.class)
 	@CucumberOptions(features = "F:\\Users\\GOPAL\\eclipse-workspace\\cucumber-example\\src\\test\\resources\\FeatureFiles\\Epicfeature.feature",
-	glue = "stepsdef",
+	glue = "stepDefinitions",
 	dryRun = false)
 	public class Runtests {
 		

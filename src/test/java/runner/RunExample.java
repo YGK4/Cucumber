@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "F:\\Users\\GOPAL\\eclipse-workspace\\cucumber-example\\src\\test\\resources\\FeatureFiles\\Example.feature",
-glue = "stepsdef", plugin = {
+glue = "stepDefinitions", plugin = {
 		"pretty", // Console output
 		"html:target/cucumber-reports.html", // HTML report
 		"json:target/cucumber.json", // JSON report for external tools

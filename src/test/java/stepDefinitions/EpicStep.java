@@ -1,6 +1,5 @@
-package stepsdef;
+package stepDefinitions;
 
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
